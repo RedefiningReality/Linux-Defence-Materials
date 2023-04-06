@@ -1,5 +1,4 @@
 # Useful Commands Reference
-https://www.geeksforgeeks.org/input-output-redirection-in-linux/ <br>
 `… | grep [contents]` ⇒ only show lines with [contents] <br>
 - `\|` in [contents] is an or
 - `-E` or `egrep` allows | without backslash
@@ -19,4 +18,6 @@ https://www.geeksforgeeks.org/input-output-redirection-in-linux/ <br>
 `… | sed -i 's/[original]/[new]/g' [file]` ⇒ replace all [original] with [new] in [file] <br>
 `… | base64 -d` ⇒ base-64 decode output <br>
 `… | more` ⇒ scrollable output <br>
-`… | tee [file]` ⇒ both print to standard output and save to file
+`… | tee [file]` ⇒ both print to standard output and save to file <br>
+---
+https://www.geeksforgeeks.org/input-output-redirection-in-linux/
