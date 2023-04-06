@@ -2,7 +2,8 @@
 `… | grep [contents]` ⇒ only show lines with [contents] <br>
 - `\|` in [contents] is an or
 - `-E` or `egrep` allows | without backslash
-- `-i` ignores case <br>
+- `-i` ignores case
+---
 `… | grep -v [contents]` ⇒ only show lines without [contents] <br>
 `… | cut -d [delimiter] -f [field]` <br>
 `… | uniq` ⇒ unique (only display duplicate lines once) <br>
