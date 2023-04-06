@@ -1,23 +1,23 @@
 # Linux Terminal Keyboard Shortcuts
 
-### Window Management
+## Window Management
 `Ctrl+Alt+F1-6` - terminal windows
 
 `Ctrl+Alt+F7-12` - GUI windows
 
 `Ctrl+D` - log out of current window
 
-### Avoiding `| more`
+## Avoiding `| more`
 `Shift+PgUp` - scroll up
 
 `Shift+PgDn` - scroll down
 
-### Command History
+## Command History
 `Ctrl+R` - recursive search history
 
 `history` -> `!{`num`}` - go back to command number num
 
-### Command Editing
+## Command Editing
 `Ctrl+A` - cursor to beginning of line
 
 `Ctrl+E` - cursor to end of line
