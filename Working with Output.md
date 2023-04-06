@@ -14,8 +14,8 @@
 `… | tr -s [chars]` ⇒ (squash) remove repeats for each character in [chars]
 - ex. `… | tr -s " " | cut -d " " -f [field]`
 
-`… | sed 's/[original]/[new]/g'` ⇒ replace all [original] with [new]
-`… | sed -i 's/[original]/[new]/g' [file]` ⇒ replace all [original] with [new] in [file]
+`… | sed 's/[original]/[new]/g'` ⇒ replace all [original] with [new] <br>
+`… | sed -i 's/[original]/[new]/g' [file]` ⇒ replace all [original] with [new] in [file] <br>
 `… | base64 -d` ⇒ base-64 decode output <br>
 `… | more` ⇒ scrollable output <br>
 `… | tee [file]` ⇒ both print to standard output and save to file
