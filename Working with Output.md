@@ -3,7 +3,7 @@
 - `\|` in [contents] is an or
 - `-E` or `egrep` allows | without backslash
 - `-i` ignores case
----<br><br>
+---
 
 `… | grep -v [contents]` ⇒ only show lines without [contents] <br>
 `… | cut -d [delimiter] -f [field]` <br>
