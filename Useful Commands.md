@@ -1,4 +1,4 @@
-# Working with Output
+# Useful Commands Reference
 `… | grep [contents]` ⇒ only show lines with [contents] <br>
 - `\|` in [contents] is an or
 - `-E` or `egrep` allows | without backslash
