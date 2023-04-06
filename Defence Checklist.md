@@ -1,0 +1,11 @@
+# Cyber Defence Checklist
+- Change root password
+- Remove unneeded users
+- Check sudo permissions
+- Change service users' shell to nologin
+- Configure IP address
+- Upgrade outdated packages
+- Apply host firewall
+- Check cron jobs
+- Check systemd timers
+- Backup required directories
