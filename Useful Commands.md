@@ -1,4 +1,5 @@
 # Useful Commands Reference
+https://www.geeksforgeeks.org/input-output-redirection-in-linux/
 `… | grep [contents]` ⇒ only show lines with [contents] <br>
 - `\|` in [contents] is an or
 - `-E` or `egrep` allows | without backslash
