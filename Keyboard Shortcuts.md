@@ -25,7 +25,7 @@
 `Alt+F` - cursor forward one word
 
 `Alt+B` - cursor back one word
-
+-
 `Ctrl+W` - backspace until beginning of word (space encountered)
 
 `Ctrl+U` - backspace until beginning of command
