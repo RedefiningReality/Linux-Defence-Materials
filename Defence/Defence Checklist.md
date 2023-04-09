@@ -21,7 +21,8 @@
 - Check systemd timers
 - Configure and secure externally-accessible services (depends on service)
   - See [attack vectors](Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
-- Backup required directories
+- Backup required directories both locally and remotely
+  - Easiest way is to tar zip the directory then access remote backup server through `sftp`
 - Configure Snort or start Wireshark capture (if applicable)
 
 If in a competition, I would make services accessible at this point because your external attack surface is minimised. The rest can be done on the fly.
