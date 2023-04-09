@@ -30,6 +30,6 @@ If in a competition, I would make services accessible at this point because your
 - Check running services
 - Check running processes
 - Check additional privilege escalation attack vectors
-  - world readable/writeable dirs/files
-  - writeable files for each user
+  - world readable/writable dirs/files
+  - writable files for each user
   - SUID/SGID binaries
