@@ -18,6 +18,8 @@
 - Upgrade outdated packages
 - Apply host firewall
 - Check cron jobs
+  - /etc/crontab, /etc/cron.* directories and /var/spool/cron
+  - For competitions, easiest is to disable the cron service with `systemctl disable cron` or `crond`
 - Check systemd timers
 - Configure and secure externally-accessible services (depends on service)
   - See [attack vectors](Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
