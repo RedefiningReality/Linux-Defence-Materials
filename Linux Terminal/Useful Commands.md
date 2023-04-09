@@ -14,13 +14,13 @@
 - `… | more` or `… | less` ⇒ scrollable output
 - `… | tee [file]` ⇒ both print to standard output and append to `[file]`
 ---
-- `… | tr [original] [new]` ⇒ replace corresponding character in [original] with character in same position in new [new]
+- `… | tr [original] [new]` ⇒ replace corresponding character in `[original]` with character in same position in new `[new]`
   - ex. `… | tr [a-z] [A-Z]` ⇒ make text uppercase
-- `… | tr -d [chars]` ⇒ delete all instances of every character in [chars]
-- `… | tr -s [chars]` ⇒ (squash) remove repeats for each character in [chars]
+- `… | tr -d [chars]` ⇒ delete all instances of every character in `[chars]`
+- `… | tr -s [chars]` ⇒ (squash) remove repeats for each character in `[chars]`
   - ex. `… | tr -s " " | cut -d " " -f [field]` ⇒ get `[field]` but account for contiguous spaces
 ---
-- `… | sed 's/[original]/[new]/g'` or `sed 's/[original]/[new]/g' [file]` ⇒ replace all [original] with [new] in output <br>
-- `sed -i 's/[original]/[new]/g' [file]` ⇒ replace all [original] with [new] in [file] <br>
+- `… | sed 's/[original]/[new]/g'` or `sed 's/[original]/[new]/g' [file]` ⇒ replace all `[original]` with `[new]` in output
+- `sed -i 's/[original]/[new]/g' [file]` ⇒ replace all `[original]` with `[new]` in `[file]`
 ---
 https://www.geeksforgeeks.org/input-output-redirection-in-linux/
