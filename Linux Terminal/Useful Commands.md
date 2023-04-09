@@ -1,5 +1,5 @@
 # Useful Commands Reference
----
+
 - `… | grep [contents]` or `grep [contents] [file]` ⇒ only show lines with `[contents]`
   - `-v [contents]` ⇒ only show lines *without* `[contents]`
   - `\|` in `[contents]` is an or
