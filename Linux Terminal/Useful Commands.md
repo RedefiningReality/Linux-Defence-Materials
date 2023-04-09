@@ -15,7 +15,8 @@
 - `… | uniq` ⇒ unique (only display duplicate lines once)
 - `… | base64 -d` ⇒ base-64 decode output
 - `… | more` or `… | less` ⇒ scrollable output
-- `… | tee [file]` ⇒ both print to standard output and append to `[file]`
+- `… | tee [file]` ⇒ both print to standard output and write to `[file]`
+  - `-a` ⇒ append instead of overwriting
 ---
 - `… | tr [original] [new]` ⇒ replace corresponding character in `[original]` with character in same position in new `[new]`
   - ex. `… | tr [a-z] [A-Z]` ⇒ make text uppercase
