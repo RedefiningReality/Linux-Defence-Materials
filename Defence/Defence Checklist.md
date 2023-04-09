@@ -20,7 +20,7 @@
 - Check cron jobs
 - Check systemd timers
 - Configure and secure externally-accessible services (depends on service)
-  - See [attack vectors](../Attack%20Vectors.md) and [defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
+  - See [attack vectors](../Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
 - Backup required directories
 - Configure Snort or start Wireshark capture (if applicable)
 
