@@ -4,7 +4,7 @@
 ## FTP
 - outdated service
 - anonymous login
-- plaintext data transfers
+- plaintext login and data transfers
 - insecure passwords
 
 ## SSH
@@ -14,7 +14,7 @@
 ## SMB
 - outdated service
 - anonymous login
-- outdate encryption
+- outdated encryption
 - insecure passwords
 
 ## HTTP
