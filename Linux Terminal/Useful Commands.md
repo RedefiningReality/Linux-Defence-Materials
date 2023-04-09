@@ -6,15 +6,14 @@
   - `-i` ⇒ ignore case
 - `grep -Horn [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
   - `-Hrn` (without the `o`) ⇒ display text surrounding `[contents]` as well as filename
-
---
+---
 - `… | cut -d [delimiter] -f [field]` ⇒ get `[field]` field from each line after cutting it with `[delimiter]`
 - `… | uniq` ⇒ unique (only display duplicate lines once)
 - `… | base64 -d` ⇒ base-64 decode output
 - `… | more` or `… | less` ⇒ scrollable output
 - `… | tee [file]` ⇒ both print to standard output and append to `[file]`
 
---
+---
 - `… | tr [original] [new]` ⇒ replace corresponding character in [original] with character in same position in new [new]
   - ex. `… | tr [a-z] [A-Z]` ⇒ make text uppercase
 - `… | tr -d [chars]` ⇒ delete all instances of every character in [chars]
