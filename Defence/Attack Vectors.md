@@ -1,4 +1,5 @@
 # Common Attack Vectors
+[John's Red Team Manual](https://docs.google.com/document/d/1MVC5l0cuEw2p5pXNvvb1kXyee-IxitJW7X_eibU_4B0/)
 
 ## FTP
 - outdated service
