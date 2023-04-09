@@ -3,7 +3,10 @@
 - `… | grep [contents]` or `grep [contents] [file]` ⇒ only show lines with `[contents]`
   - `-v [contents]` ⇒ only show lines *without* `[contents]`
   - `\|` in `[contents]` is an or
-  - `-E` or `egrep` allows regex (including | without backslash)
+  - `-E` or `egrep` allows regex in `[contents]`
+    - `|` can be used without backslash
+    - `^[start]` ⇒ only show lines that start with `[start]`
+    - `[end]$` ⇒ only show lines that end with `[end]`
   - `-i` ⇒ ignore case
 - `grep -Horn [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
   - `-Hrn` (without the `o`) ⇒ display text surrounding `[contents]` as well as filename
