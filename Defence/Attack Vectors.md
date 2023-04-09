@@ -20,6 +20,7 @@
 ## HTTP
 - outdated service
 - web attacks (SQLi, FIV, FUV, XSS, CSRF, etc.)
+  - check OWASP [vulnerabilities](https://owasp.org/www-community/vulnerabilities) and [attacks](https://owasp.org/www-community/attacks) lists
 
 **Note:** There are so many, that as a defender, you'll just have to accept that you won't be able to find them all. Set up good monitoring or a Web Application Firewall (WAF).
 
