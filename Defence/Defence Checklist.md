@@ -19,7 +19,7 @@
 - Apply host firewall
   - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order.
 - Check cron jobs
-  - `/etc/crontab`, `/etc/cron.*` directories and `/var/spool/cron`
+  - `/etc/crontab`, `/etc/cron.allow`, `/etc/cron.*` directories and `/var/spool/cron`
   - For competitions, easiest is to disable the cron service with `systemctl disable cron` or `crond`
 - Check systemd timers
 - Configure and secure externally-accessible services (depends on service)
