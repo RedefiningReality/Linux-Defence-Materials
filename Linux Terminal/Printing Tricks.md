@@ -1,4 +1,5 @@
-# Useful Commands Reference
+# Printing Tricks
+*aka Useful Commands for Working with Output*
 
 - `… | grep [contents]` or `grep [contents] [file]` ⇒ only show lines with `[contents]`
   - `-v [contents]` ⇒ only show lines *without* `[contents]`
