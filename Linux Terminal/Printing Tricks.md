@@ -11,6 +11,8 @@
   - `-i` ⇒ ignore case
 - `grep -Horn [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
   - `-Hrn` (without the `o`) ⇒ display text surrounding `[contents]` as well as filename
+
+https://www.cyberciti.biz/faq/grep-regular-expressions/
 ---
 - `… | cut -d [delimiter] -f [field]` ⇒ get `[field]` field from each line after cutting it with `[delimiter]`
 - `… | uniq` ⇒ unique (only display duplicate lines once)
