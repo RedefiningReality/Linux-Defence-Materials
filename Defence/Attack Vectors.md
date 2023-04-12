@@ -14,7 +14,7 @@
 ## SMB
 - outdated service
 - anonymous login
-- outdated encryption
+- weak encryption
 - insecure passwords
 
 ## SMTP
@@ -32,7 +32,12 @@
 
 ## HTTPS
 - same as HTTP
-- outdated encryption
+- weak encryption
+
+## SQL
+- outdated service
+- weak or nonexistent encryption
+- insecure/default passwords
 
 ## Privilege Escalation
 https://gtfobins.github.io/
