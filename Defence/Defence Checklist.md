@@ -29,7 +29,7 @@
 - Configure Snort or start Wireshark capture (if applicable)
 
 If in a competition, I would make services accessible at this point because your external attack surface is minimised. The rest can be done on the fly.
-- Check open ports
+- Check open ports - consult the [port closing flowchart](Port%20Closing%20Flowchart.png)
 - Check startup services
 - Check running services
 - Check running processes
