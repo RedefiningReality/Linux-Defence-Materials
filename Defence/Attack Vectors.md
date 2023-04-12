@@ -17,6 +17,12 @@
 - outdated encryption
 - insecure passwords
 
+## SMTP
+- outdated service
+- VRFY or RCPT TO user disclosure
+- plaintext login and data transfers
+- insecure passwords
+
 ## HTTP
 - outdated service
 - web attacks (SQLi, FIV, FUV, XSS, CSRF, etc.)
