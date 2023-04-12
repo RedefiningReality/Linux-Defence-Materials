@@ -18,8 +18,9 @@
 - Upgrade outdated packages
 - Apply host firewall
   - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order.
-- Check cron jobs
+- Check cron and anacron (if applicable) jobs
   - `/etc/crontab`, `/etc/cron.allow`, `/etc/cron.*` directories and `/var/spool/cron`
+  - same files/folders as above but replace `cron` with `anacron`
   - For competitions, easiest is to disable the cron service with `systemctl disable cron` or `crond`
 - Check systemd timers
 - Configure and secure externally-accessible services (depends on service)
