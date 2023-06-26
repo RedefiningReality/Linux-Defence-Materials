@@ -16,7 +16,9 @@ https://www.cyberciti.biz/faq/grep-regular-expressions/
 
 ---
 - `… | cut -d [delimiter] -f [field]` ⇒ get `[field]` field from each line after cutting it with `[delimiter]`
-- `… | uniq` ⇒ unique (only display duplicate lines once)
+- `… | sort` ⇒ sort lines in alphabetical order
+- `… | uniq` ⇒ unique (only display consecutive duplicate lines once)
+  - ex. `… | sort | uniq` ⇒ remove ALL (not just consecutive) duplicate lines
 - `… | base64 -d` ⇒ base-64 decode output
 - `… | more` or `… | less` ⇒ scrollable output
 - `… | tee [file]` ⇒ both print to standard output and write to `[file]`
