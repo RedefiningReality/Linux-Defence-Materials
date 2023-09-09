@@ -9,7 +9,7 @@
     - `^[start]` ⇒ only show lines that start with `[start]`
     - `[end]$` ⇒ only show lines that end with `[end]`
   - `-i` ⇒ ignore case
-- `grep -Horn [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
+- `grep -Horn [contents] [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
   - `-Hrn` (without the `o`) ⇒ display text surrounding `[contents]` as well as filename
 
 https://www.cyberciti.biz/faq/grep-regular-expressions/
