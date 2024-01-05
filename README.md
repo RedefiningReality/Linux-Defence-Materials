@@ -14,7 +14,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 #### [Linux Defence](Defence/)
 - [Attack Vectors](Defence/Attack%20Vectors.md) ⇒ attack vectors by service and the most basic privilege escalation attacks
 - [Defence Checklist](Defence/Defence%20Checklist.md) ⇒ Illinois Tech's approach to cyber defence competitions
-- [Cloing Ports (the right way)](Defence/Port%20Closing%20Flowchart.png) ⇒ I'm tired of people thinking a firewall is the solution to all their problems... actually stop your services and fix the vulnerability!
+- [Closing Ports (the right way)](Defence/Port%20Closing%20Flowchart.png) ⇒ I'm tired of people thinking a firewall is the solution to all their problems... actually remove services you don't need!
 - [Linux Services and Defence Cheat Sheet](https://docs.google.com/document/d/1DikLS0jAhuflCj3bOlbh5ZIJE6Ou4WkyIxMN0t2ZqU0/)
 #### [NCAE Checklists](NCAE%20Checklists/)
 - [Linux Checklist](NCAE%20Checklists/Linux%20Checklist.pdf) ⇒ the "boilerplate" Linux defence checklist Illinois Tech uses for competitions - we take this one and use it to create separate checklists for each machine
