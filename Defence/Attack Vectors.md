@@ -47,3 +47,14 @@ https://gtfobins.github.io/
 - bad file permissions (wrong ownership or rwx on file)
 - SUID/SGID binaries
 - SUID/SGID capability set on binary (check `getcap`)
+[Linux Privilege Escalation Checklist on HackTricks](https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist) has a more complete list along with commands
+
+## Persistence
+- SSH authorized_keys
+- user account
+- service
+- cron job
+- profile and bashrc
+- webshell (eg. PHP)
+- backdooring an existing command (PATH hijacking)
+[Linux Persistence on PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md) has a more complete list along with commands
