@@ -18,7 +18,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 - [Attack Vectors](Defence/Attack%20Vectors.md) ⇒ attack vectors by service and the most basic privilege escalation attacks
 - [Defence Checklist](Defence/Defence%20Checklist.md) ⇒ Illinois Tech's approach to cyber defence competitions
 - [Closing Ports (the right way)](Defence/Port%20Closing%20Flowchart.png) ⇒ I'm tired of people thinking a firewall is the solution to all their problems... actually remove services you don't need!
-- [Linux Services and Defence Cheat Sheet](https://docs.google.com/document/d/1DikLS0jAhuflCj3bOlbh5ZIJE6Ou4WkyIxMN0t2ZqU0/)
+- [Linux Services and Defence Cheat Sheet](https://docs.google.com/document/d/1DikLS0jAhuflCj3bOlbh5ZIJE6Ou4WkyIxMN0t2ZqU0/) ⇒ all the service setup commands mentioned in the NCAE Cyber Sandbox Tutorials but in the form of a reference sheet + some defence ideas
 #### [NCAE Checklists](NCAE%20Checklists/)
 - [Linux Checklist](NCAE%20Checklists/Linux%20Checklist.pdf) ⇒ the "boilerplate" Linux defence checklist Illinois Tech uses for competitions - we take this one and use it to create separate checklists for each machine
 - [DNS Configuration](NCAE%20Checklists/DNS%20Configuration.pdf) ⇒ bind9 is a mess, so here are all the changes you need to make written out
