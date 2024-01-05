@@ -17,7 +17,7 @@
 - Change service users' shell to nologin
 - Upgrade outdated packages
 - Apply host firewall
-  - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order.
+  - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order, but knowing how to use iptables is important in case the others get nuked.
 - Check cron and anacron (if applicable) jobs
   - `/etc/crontab`, `/etc/cron.allow`, `/etc/cron.*` directories and `/var/spool/cron`
   - same files/folders as above but replace `cron` with `anacron`
