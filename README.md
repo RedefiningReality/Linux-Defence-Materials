@@ -20,7 +20,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 - [Linux Checklist](NCAE%20Checklists/Linux%20Checklist.pdf) ⇒ the "boilerplate" Linux defence checklist Illinois Tech uses for competitions - we take this one and use it to create separate checklists for each machine
 - [DNS Configuration](NCAE%20Checklists/DNS%20Configuration.pdf) ⇒ bind9 is a mess, so here are all the changes you need to make written out
 - [Recovery Plan](NCAE%20Checklists/Recovery%20Plan.pdf) ⇒ booting into recovery to reset root password and making backups of sensitive files (eg. website source code)
-#### [Practice Materials](Practice Materials/)
+#### [Practice Materials](Practice%20Materials/)
 - [iptables Template](Practice%20Materials/iptables-template.sh) ⇒ iptables is even yuckier than bind9, so here's a template you can follow when setting up iptables rules
   - iptables is the "lowest-level" firewalling solution, and that gives it some distinct advantages over ufw or firewalld - namely, red team can just remove those when they inevitably compromise you
 - [Illinois Tech Practice Range Network Diagram](Practice%20Materials/practice.jpg) ⇒ the practice network Illinois Tech gave to students in 2023 so they could prepare for the competition - each student got their own unique copy to play around with
