@@ -8,7 +8,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 
 **Note:** All the links on this README (with the exception of NCAE checklists) are to the original Google Docs, which may be easier to read than the PDF versions in GitHub. Also, if you open them on a PC you get a nice document outline on the side that makes them very easy to navigate! Also also, I cannot guarantee the PDFs in this repo stay up-to-date, so I highly recommend using the Google Docs versions.
 
-***tl;dr use the links in this README***
+**tl;dr use the links in this README**
 #### [Linux Terminal](Linux%20Terminal/)
 - [Linux Commands Cheat Sheet](https://docs.google.com/document/d/1vJxoHrjW607NJDLC1Zln1llrEIqrS6Ea3j9ihJTdblg/) ⇒ all the actually useful Linux commands, including the ones mentioned in the NCAE Cyber Sandbox Tutorials
   - For anyone who wants it, the Windows counterpart is here: [Windows Commands Cheat Sheet](https://docs.google.com/document/d/1CGgADAOZQuMXAyzXVeXRNhQ_PPBYliMXCy-4RNE0UMw/)
