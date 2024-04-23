@@ -58,5 +58,6 @@ https://gtfobins.github.io/
 - profile and bashrc
 - webshell (eg. PHP)
 - backdooring an existing command (PATH hijacking)
+- PAM config or custom module
 
 [Linux Persistence on PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md) has a more complete list along with commands
