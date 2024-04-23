@@ -27,7 +27,7 @@
   - See [attack vectors](Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
 - Backup required directories both locally and remotely
   - Easiest way is to `tar` zip the directory then access remote backup server through `sftp`
-- Configure Snort or start Wireshark capture (if applicable)
+- Start Wireshark capture
 
 If in a competition, I would make services accessible at this point because your external attack surface is minimised. The rest can be done on the fly.
 - Check open ports - consult the [port closing flowchart](Port%20Closing%20Flowchart.png)
@@ -38,3 +38,10 @@ If in a competition, I would make services accessible at this point because your
   - world readable/writable dirs/files
   - writable files for each user
   - SUID/SGID binaries
+
+### Free Defence Solutions
+*probably too advanced for limited-time competitions like NCAE Cyber Games, but if you're feeling adventurous, here are some ideas*
+- antivirus: [ClamAV](https://www.clamav.net)
+- network IDS/IPS: [Snort](https://www.snort.org)
+- SIEM: [Wazuh](https://wazuh.com)
+- WAF: [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity)
