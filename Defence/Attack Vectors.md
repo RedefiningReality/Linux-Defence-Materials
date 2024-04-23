@@ -19,7 +19,7 @@
 
 ## SMTP
 - outdated service
-- VRFY or RCPT TO user disclosure
+- VRFY, EXPN, or RCPT TO user disclosure
 - plaintext login and data transfers
 - insecure passwords
 
