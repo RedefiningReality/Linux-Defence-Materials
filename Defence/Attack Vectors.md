@@ -13,7 +13,7 @@
 
 ## SMB
 - outdated service
-- anonymous login
+- anonymous login (null/guest)
 - weak encryption
 - insecure passwords
 
