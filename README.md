@@ -1,7 +1,7 @@
 # Linux Defence Materials
 A repository of helpful materials related to Linux defence
 
-This was originally created for the [NCAE Cyber Games competition](https://www.ncaecybergames.org) in an effort to make Illinois Institute of Technology's resources public and share our knowledge with the community, in the spirit of the competition. However, it's certainly not limited to that scope. I still use and make occasional edits to my Linux Commands Cheat Sheet and Defence Checklist to this day. Enjoy, and feel free to reach out to me with any feedback or questions!
+This was originally created for the [NCAE Cyber Games competition](https://www.ncaecybergames.org) in an effort to make Illinois Institute of Technology's resources public and share our knowledge with the community, in the spirit of the competition. However, it's certainly not limited to that scope. I still use and make occasional edits to my Linux Commands Cheat Sheet and Defence Checklist to this day. Enjoy, and feel free to submit a GitHub issue with any feedback or questions!
 
 ### Repository Contents
 If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](https://www.youtube.com/playlist?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M) on YouTube that will give you an introduction to using Linux and Linux defence concepts.
