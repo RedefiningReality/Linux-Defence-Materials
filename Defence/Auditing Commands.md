@@ -15,14 +15,14 @@ function log_command
 }
 trap log_command DEBUG
 ```
+(optional) *THE FOLLOWING COULD DAMAGE YOUR MACHINE*
+
+instead, consider `sudo dpkg-reconfigure dash` and electing not to use dash as the default shell
 ```sh
 sudo unlink /bin/sh
 sudo unlink /usr/bin/sh
 sudo ln -s bash /bin/sh
 sudo ln -s bash /usr/bin/sh
-```
-(optional) *THE FOLLOWING COULD DAMAGE YOUR MACHINE*
-```sh
 grep -v "/bash" /etc/shells | sudo xargs -d '\n' rm  # get each line in /etc/shells that doesn't contain "/bash", then remove those files
 sudo sed -i '/\/bash/!d' /etc/shells  # remove lines that don't contain "/bash" from /etc/shells
 ```
