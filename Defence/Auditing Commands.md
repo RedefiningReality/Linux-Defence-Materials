@@ -39,6 +39,6 @@ sudo augenrules --load
 sudo systemctl restart auditd
 ```
 execve syscalls from commands will be logged to /var/log/audit/audit.log, which can only be read by root
-- read with `ausearch -i -k commands`
+- read with `sudo ausearch -i -k commands`
   - add `-p <pid>` to search by process ID or `-ui <uid>` to search by user ID
-- view binaries run with `aureport -x`
+- view binaries run with `sudo aureport -x`
