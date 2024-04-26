@@ -1,5 +1,5 @@
 *adapted from [this blog post](https://medium.com/@truvis.thornton/commandline-auditing-using-different-tools-to-security-your-linux-server-and-environments-2fcd361142ef)*
-# Bash Trace Debug
+# Bash Trap Debug
 ```sh
 sudo touch /var/log/commands.log
 sudo chmod 622 /var/log/commands.log
