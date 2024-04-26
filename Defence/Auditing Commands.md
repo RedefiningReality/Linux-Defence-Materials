@@ -1,5 +1,5 @@
 *adapted from [this blog post](https://medium.com/@truvis.thornton/commandline-auditing-using-different-tools-to-security-your-linux-server-and-environments-2fcd361142ef)*
-# Trace Method
+# Bash Trace Method
 ```sh
 sudo touch /var/log/commands.log
 sudo chmod 622 /var/log/commands.log
@@ -28,3 +28,17 @@ sudo sed -i '/\/bash/!d' /etc/shells  # remove lines that don't contain "/bash" 
 commands from all users running bash will be logged to /var/log/commands.log, which can only be read by root (`sudo cat /var/log/commands.log`)
 - search with `sudo grep <string> /var/log/commands.log`
   - `<string>` can be a process ID, user, command, etc
+
+# Auditd
+```sh
+sudo apt install auditd  # or sudo yum install auditd
+echo '-a exit,always -F arch=b32 -S execve -k commands' | sudo tee /etc/audit/rules.d/commands.rules
+echo '-a exit,always -F arch=b64 -S execve -k commands' | sudo tee /etc/audit/rules.d/commands.rules
+sudo augenrules --check
+sudo augenrules --load
+sudo systemctl restart auditd
+```
+execve syscalls from commands will be logged to /var/log/audit/audit.log, which can only be read by root
+- read with `ausearch -i -k commands`
+  - add `-p <pid>` to search by process ID or `-ui <uid>` to search by user ID
+- view binaries run with `aureport -x`
