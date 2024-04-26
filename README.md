@@ -17,7 +17,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 #### [Linux Defence](Defence/)
 - [Attack Vectors](Defence/Attack%20Vectors.md) ⇒ attack vectors by service and the most basic privilege escalation attacks
 - [Defence Checklist](Defence/Defence%20Checklist.md) ⇒ Illinois Tech's approach to cyber defence competitions
-- [Auditing Commands](Defence/Auditing%20Commands.md) ⇒ various methods to save all commands to a log file
+- [Auditing Commands](Defence/Auditing%20Commands.md) ⇒ various methods to log all commands executed
 - [Closing Ports (the right way)](Defence/Port%20Closing%20Flowchart.png) ⇒ I'm tired of people thinking a firewall is the solution to all their problems... actually remove services you don't need!
 - [Linux Services and Defence Cheat Sheet](https://docs.google.com/document/d/1DikLS0jAhuflCj3bOlbh5ZIJE6Ou4WkyIxMN0t2ZqU0/) ⇒ all the service setup commands mentioned in the NCAE Cyber Sandbox Tutorials but in the form of a reference sheet + some defence ideas
 #### [NCAE Checklists](NCAE%20Checklists/)
