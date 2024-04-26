@@ -27,7 +27,7 @@
   - See [attack vectors](Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
 - Backup required directories both locally and remotely
   - Easiest way is to `tar` zip the directory then access remote backup server through `sftp`
-- Set up [command line auditing](https://medium.com/@truvis.thornton/commandline-auditing-using-different-tools-to-security-your-linux-server-and-environments-2fcd361142ef): eg. auditd
+- Set up [command line auditing](Auditing%20Commands.md)
 - Start Wireshark capture
 
 If in a competition, I would make services accessible at this point because your external attack surface is minimised. The rest can be done on the fly.
