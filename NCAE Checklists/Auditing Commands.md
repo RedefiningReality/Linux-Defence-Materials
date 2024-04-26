@@ -15,7 +15,7 @@ function log_command
 trap log_command DEBUG
 ```
 remove all shells that aren't bash:
-```
+```sh
 sudo unlink /bin/sh
 sudo unlink /usr/bin/sh
 sudo ln -s bash /bin/sh
