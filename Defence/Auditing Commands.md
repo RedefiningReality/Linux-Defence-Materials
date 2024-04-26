@@ -15,9 +15,7 @@ function log_command
 }
 trap log_command DEBUG
 ```
-(optional) *THE FOLLOWING COULD DAMAGE YOUR MACHINE*
-
-instead, consider `sudo dpkg-reconfigure dash` and electing not to use dash as the default shell
+(optional) *THE FOLLOWING COULD DAMAGE YOUR MACHINE* - instead, consider `sudo dpkg-reconfigure dash` and electing not to use dash as the default shell
 ```sh
 sudo unlink /bin/sh
 sudo unlink /usr/bin/sh
