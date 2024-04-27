@@ -10,7 +10,7 @@
 5. Prepare for active defence. (Wireshark and/or auditing)
 6. Check for privilege escalation or persistence [attack vectors](Attack%20Vectors.md).
 
-**Note:** If server is really outdated, don't worry about 4 because there's nothing you can do *unless* there's potential to escalate through a service.
+**Note:** If server is really outdated, don't worry about 6 because there's nothing you can do *unless* there's potential to escalate through a service.
 
 ## The Complete Checklist
 - Change root and user passwords
