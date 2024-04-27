@@ -17,14 +17,14 @@
 - Remove unneeded users
 - Check group membership and sudo permissions
 - Upgrade outdated packages
-- Apply host firewall
-  - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order
 - Check cron and anacron (if applicable) jobs
   - `/etc/crontab`, `/etc/cron.allow`, `/etc/cron.*` directories and `/var/spool/cron`
   - same files/folders as above but replace `cron` with `anacron`
   - For competitions, easiest is to disable the cron service with `systemctl disable cron` or `crond`
 - Check systemd timers
 - Check running processes
+- Apply host firewall
+  - I'd use `ufw`, `firewalld`, `iptables`, `nftables` in that order
 - Configure and secure externally-accessible services (depends on service)
   - See [attack vectors](Attack%20Vectors.md) and [services/defence cheatsheet](Linux%20Services%20and%20Defence%20Cheat%20Sheet.pdf)
 - Backup required directories both locally and remotely
