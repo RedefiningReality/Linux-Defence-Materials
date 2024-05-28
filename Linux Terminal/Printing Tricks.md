@@ -9,6 +9,8 @@
     - `^[start]` ⇒ only show lines that start with `[start]`
     - `[end]$` ⇒ only show lines that end with `[end]`
   - `-i` ⇒ ignore case
+  - `-B [num]` ⇒ show `[num]` lines before line
+  - `-A [num]` ⇒ show `[num]` lines after line
 - `grep -Horn [contents] [dir]` ⇒ recursively search `[dir]` for files containing `[contents]`
   - `-Hrn` (without the `o`) ⇒ display text surrounding `[contents]` as well as filename
 
