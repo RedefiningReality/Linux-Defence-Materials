@@ -12,7 +12,7 @@ If you're just getting started, check out the [NCAE Cyber Sandbox Tutorials](htt
 #### [Linux Terminal](Linux%20Terminal/)
 - [Linux Commands Cheat Sheet](https://docs.google.com/document/d/1vJxoHrjW607NJDLC1Zln1llrEIqrS6Ea3j9ihJTdblg/) ⇒ all the actually useful Linux commands, including the ones mentioned in the NCAE Cyber Sandbox Tutorials
   - For anyone who wants it, the Windows counterpart is here: [Windows Commands Cheat Sheet](https://docs.google.com/document/d/1CGgADAOZQuMXAyzXVeXRNhQ_PPBYliMXCy-4RNE0UMw/)
-- [Printing Tricks](https://github.com/RedefiningReality/Cheatsheets/blob/main/Working%20with%20Terminal%20Output.md) ⇒ commands related to working with command line output: grep, sed, cut, tr, etc. This is also linked in the Linux Commands Cheat Sheet for convenience
+- [Printing Tricks]([https://github.com/RedefiningReality/Cheatsheets/blob/main/Parsing%20Command%20Output.md) ⇒ commands related to working with command line output: grep, sed, cut, tr, etc. This is also linked in the Linux Commands Cheat Sheet for convenience
 - [Keyboard Shortcuts](Linux%20Terminal/Keyboard%20Shortcuts.md) ⇒ window management, navigating history, and rerunning previous commands with select modifications, all through keyboard shortcuts
 #### [Linux Defence](Defence/)
 - [Attack Vectors](Defence/Attack%20Vectors.md) ⇒ attack vectors by service and the most basic privilege escalation attacks
